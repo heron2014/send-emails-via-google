@@ -1,0 +1,36 @@
+{
+  "name": "send-emails-via-google",
+  "version": "1.0.0",
+  "description": "Send emails via Google API",
+  "main": "lib/start.js",
+  "scripts": {
+    "start": "node lib/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heron2014/send-emails-via-google.git"
+  },
+  "keywords": [
+    "hapi",
+    "google",
+    "emails"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heron2014/send-emails-via-google/issues"
+  },
+  "homepage": "https://github.com/heron2014/send-emails-via-google#readme",
+  "dependencies": {
+    "env2": "^2.0.4",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.0.0",
+    "hapi-auth-google": "^1.0.8",
+    "hapi-auth-jwt2": "^5.4.1",
+    "hoek": "^3.0.4",
+    "inert": "^3.2.0",
+    "jsonwebtoken": "^5.5.4",
+    "redis-connection": "^4.0.1",
+    "vision": "^4.0.1"
+  }
+}
