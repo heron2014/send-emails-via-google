@@ -1,0 +1,13 @@
+<h1>Create an email</h1>
+
+
+<form action="/sendemail" method="POST">
+
+  <img src="{{profile.image}}" style="width:100px" /><br/>
+  <label>From:  {{profile.firstname}}</label><br/>
+  <label>To:</label>
+  <input name="to" value=""/><br/>
+  <input type="text" name="email-subject" placeholder="Subject"><br/>
+  <textarea name="message" placeholder="Message" cols="50" rows="10"></textarea><br/>
+  <button type="submit">Send</button>
+</form>
