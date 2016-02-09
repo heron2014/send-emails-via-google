@@ -5,7 +5,11 @@
   <img src="{{profile.image}}" style="width:100px" /><br/>
   <label>From:  {{profile.firstname}}</label><br/>
   <label>To:</label>
-  <input id="to" name="to" placeholder="{{to}}" /><br/>
+  <div>
+    <ul>
+      {{emailsHelper emails}}
+    </ul>
+  </div>
   <input type="text" name="subject" placeholder="Subject"><br/>
   <textarea id="message" name="message" placeholder="Message" cols="50" rows="10"></textarea><br/>
   <button type="submit">Send</button>

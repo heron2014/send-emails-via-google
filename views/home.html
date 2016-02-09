@@ -1,3 +1,11 @@
 <h1>Welcome {{profile.firstname}}</h1>
 
-<a href="/compose">Compose an email</a>
+<p>Pick to whom you want to send an email, if nobody from the following list click on Compose an email</p>
+
+<form action="/compose" method="POST">
+  <input type="checkbox" name="emailsL" value="a.nita@hotmail.co.uk">
+  <input type="checkbox" name="emailsL" value="anita@foundersandcoders.com">
+ <button id="send-email" type="submit">SEND EMAIL</button>
+</form>
+
+<!-- <a href="/compose">Compose an email</a> -->
